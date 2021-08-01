@@ -7,6 +7,6 @@ B = int(input("What were your Tips?:"))
 Y = (M*X+B)
 Average = (Y/M)
 #Step 3: Display Results as a percentage.
-print ("Your Wages for the Day Are: ",format (Y, ',.2f'))
-print ("Your Average Wage for the Day Is: ",format (Average, ',.2f'))
+print ("Your Wages for the Day Are: $",format (Y, ',.2f'))
+print ("Your Average Wage for the Day Is: $",format (Average, ',.2f'))
 input()
